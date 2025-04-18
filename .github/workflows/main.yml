@@ -27,7 +27,7 @@ jobs:
       run: ./gradlew :pt:thehentai:assembleDebug
 
     - name: Upload APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: thehentai-extension
         path: pt/thehentai/build/outputs/apk/debug/*.apk
